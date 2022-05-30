@@ -56,6 +56,7 @@ public class UserDaoHibernateImpl implements UserDao {
         } finally {
             factory.close();
         }
+        System.out.println("User с именем – \"" + name + "\" добавлен в базу данных");
     }
 
     @Override
